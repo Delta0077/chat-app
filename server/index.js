@@ -3,7 +3,7 @@ const app = express();
 const PORT = 4000;
 
 // cors and http import
-const http = require("http").Server.app();
+const http = require("http").Server(app);
 const cors = require("cors");
 
 // Importing Socket.io
